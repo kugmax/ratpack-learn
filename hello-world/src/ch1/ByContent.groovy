@@ -1,3 +1,5 @@
+package ch1
+
 @Grab('io.ratpack:ratpack-groovy:1.3.3')
 import static ratpack.groovy.Groovy.ratpack
 import static groovy.json.JsonOutput.toJson
@@ -33,7 +35,7 @@ ratpack {
                     |<!DOCTYPE html>
                     |<html>
                     |<head>
-                    |<title>User List</title>
+                    |<title>ch1.User List</title>
                     |</head>
                     |<body>
                     |<h1>Users</h1>
